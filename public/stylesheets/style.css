@@ -126,7 +126,7 @@ tr:nth-child(2n) td{
   flex: 3;
   margin-right: 16px;
 }
-.streetline1{
+.streetline1 input{
   width: 100%;
 }
 .streetline2{

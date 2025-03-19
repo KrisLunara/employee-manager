@@ -46,7 +46,7 @@ mixin employeeForm(url, employee, jobtitle, stateslist)
 
             div.year
                 label(for='yearhired') Year Hired:
-                input(id='yearhired' name='yearhired' type='number' value=employee.yearhired)
+                input(id='yearhired' name='yearhired' min="1970" type='number' value=employee.yearhired)
         div.form-buttons
             a(href='/') Cancel
             if employee.id
